@@ -12,7 +12,7 @@
     />
   </head>
 
-  <body>
+  <body class="bg-tertiary">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="bootstrap" viewBox="0 0 118 94">
         <title>Bootstrap</title>
@@ -70,7 +70,7 @@
     <!-- carousel -->
 
     <div class="container-fluid">
-      <div class="text-white" style="height: 800px">
+      <div class="text-white" style="height: 500px">
         <!-- Carousel -->
         <div id="carouselExample" class="carousel slide" style="height: 100%">
           <div class="carousel-inner" style="height: 100%">
@@ -199,6 +199,77 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- video YouTube -->
+    <div class="container-fluid m-5 bg-tertiary">
+      <div class="row">
+        <div class="col-md-8">
+          <!-- video -->
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/OkgKcmDfdXY?si=E5iJoXQPJU4HSiI2"
+              title="Video de YouTube"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <!-- formulario de contacto -->
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+              <h2 class="text-center text-success mb-4 mt-5">
+                Contacto Lamborghini
+              </h2>
+              <form>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control is-valid"
+                    id="nombre"
+                    required
+                  />
+                  <div class="valid-feedback">¡Se ve bien!</div>
+                  <div class="invalid-feedback">
+                    Por favor ingresa tu nombre.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="correo" class="form-label"
+                    >Correo Electrónico</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control is-valid"
+                    id="correo"
+                    placeholder="user@correo.com"
+                  />
+                  <div class="valid-feedback">¡Se ve bien!</div>
+                  <div class="invalid-feedback">
+                    Por favor ingresa tu correo.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="asunto" class="form-label">Asunto</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="asunto"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <input class="btn btn-success" type="submit" value="Submit">
+
+              </form>
             </div>
           </div>
         </div>
