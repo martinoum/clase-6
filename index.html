@@ -37,187 +37,192 @@
   <!-- navbar -->
 
   <div class="container-fluid">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-        <span class="fs-4">FULLCARS</span>
-      </a>
+    <header
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/lamborghini.png" alt="Logo" width="45" height="45">
+          Lamborghini
+        </a>
+      </div>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a href="#" class="nav-link active" aria-current="page">Home</a>
-        </li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#inicio" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#nuestros-autos" class="nav-link px-2 link-success">Nuestros Autos</a></li>
+        <li><a href="#caracteristicas" class="nav-link px-2 link-success">Caracteristicas</a></li>
+        <li><a href="#contacto" class="nav-link px-2 link-success">Contacto</a></li>
       </ul>
     </header>
   </div>
 
   <!-- carousel -->
 
-  <div class="container-fluid">
-    <div class="text-white" style="height: 500px">
-      <!-- Carousel -->
-      <div id="carouselExample" class="carousel slide" style="height: 100%">
-        <div class="carousel-inner" style="height: 100%">
-          <div class="carousel-item active" style="height: 100%">
-            <img src="imagenes/charlie-larkman-fbG0QTZasKg-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover"
-              alt="Auto 1" />
+  <section id="inicio">
+    <div class="container-fluid">
+      <div class="text-white" style="height: 500px">
+        <!-- Carousel -->
+        <div id="carouselExample" class="carousel slide" style="height: 100%">
+          <div class="carousel-inner" style="height: 100%">
+            <div class="carousel-item active" style="height: 100%">
+              <img src="imagenes/charlie-larkman-fbG0QTZasKg-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover"
+                alt="Auto 1" />
+            </div>
+            <div class="carousel-item" style="height: 100%">
+              <img src="imagenes/denin-lawley-YWl9W8iBiUk-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover"
+                alt="Auto 2" />
+            </div>
+            <div class="carousel-item" style="height: 100%">
+              <img src="imagenes/philip-myrtorp-dvPOQe1JiKI-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover"
+                alt="Auto 3" />
+            </div>
           </div>
-          <div class="carousel-item" style="height: 100%">
-            <img src="imagenes/denin-lawley-YWl9W8iBiUk-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover"
-              alt="Auto 2" />
-          </div>
-          <div class="carousel-item" style="height: 100%">
-            <img src="imagenes/philip-myrtorp-dvPOQe1JiKI-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover"
-              alt="Auto 3" />
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- 3 cards -->
-  <div class="container mt-5">
-    <h1 class="display-6 text-center mb-5">Nuestros autos</h1>
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4">
-        <div class="card" style="width: 18rem">
-          <img src="imagenes/Aventador.jpg" class="card-img-top" alt="auto 1" />
-          <div class="card-body">
-            <p class="card-text">
-              Lamborghini
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 18rem">
-          <img src="imagenes/Lambo.jpg" class="card-img-top" alt="auto 2" />
-          <div class="card-body">
-            <p class="card-text">
-              Lamborghini Aventador
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 18rem">
-          <img src="imagenes/pexels-pixelazteca-12351510.jpg" class="card-img-top" alt="auto 3" />
-          <div class="card-body">
-            <p class="card-text">
-              Lamborghini
-            </p>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- 2 cards -->
-  <div class="container mt-5">
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4">
-        <div class="card" style="width: 18rem">
-          <img src="imagenes/pexels-trvlust-3221145.jpg" class="card-img-top" alt="auto 1" />
-          <div class="card-body">
-            <p class="card-text">
-              Lamborghini
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 18rem">
-          <img src="imagenes/pexels-szymon-shields-1503561-6152801.jpg" class="card-img-top" alt="auto 3" />
-          <div class="card-body">
-            <p class="card-text">
-              Lamborghini
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
 
-  <div class="container m-5 bg-tertiary">
-    <h1 class="display-6 text-center mb-5">Caracteristicas</h1>
-    <div class="row">
-      <div class="col-md-8">
-        <!-- video de youtube -->
-        <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/OkgKcmDfdXY?si=E5iJoXQPJU4HSiI2" title="Video de YouTube"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-md-4 justify-content-center">
-        <!-- lista -->
-        <ul class="list-group">
-          <li class="text-success list-group-item">Caracteristicas de nuestros autos</li>
-          <li class="list-group-item">Motor V10 - 640 hp</li>
-          <li class="list-group-item">Doble embrague de 7 velocidades (LDF)</li>
-          <li class="list-group-item">Cambio automático con modo manual</li>
-          <li class="list-group-item">Aceleración de 0 a 100 km/h en 3.4 segundos</li>
-          <li class="list-group-item">Velocidad máxima de 325 km/h</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- formulario de contacto -->
-
-  <form action="" form-control>
-    <div class="container">
-      <h1 class="display-6 text-center mb-5">Contacto Lamborghini</h1>
-      <form>
-        <div class="mb-3">
-          <label for="nombre" class="form-label">Nombre</label>
-          <input type="text" class="form-control is-valid" id="nombre" required />
-          <div class="valid-feedback">¡Se ve bien!</div>
-          <div class="invalid-feedback">
-            Por favor ingresa tu nombre.
+  <section id="nuestros-autos">
+    <!-- 3 cards -->
+    <div class="container mt-5">
+      <h1 class="display-6 text-center mb-5">Nuestros autos</h1>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/Aventador.jpg" class="card-img-top" alt="auto 1" />
+            <div class="card-body">
+              <p class="card-text">
+                Lamborghini
+              </p>
+            </div>
           </div>
         </div>
-        <div class="mb-3">
-          <label for="correo" class="form-label">Correo Electrónico</label>
-          <input type="text" class="form-control is-valid" id="correo" placeholder="user@correo.com" />
-          <div class="valid-feedback">¡Se ve bien!</div>
-          <div class="invalid-feedback">
-            Por favor ingresa tu correo.
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/Lambo.jpg" class="card-img-top" alt="auto 2" />
+            <div class="card-body">
+              <p class="card-text">
+                Lamborghini Aventador
+              </p>
+            </div>
           </div>
         </div>
-        <div class="mb-3">
-          <label for="asunto" class="form-label">Asunto</label>
-          <input type="text" class="form-control" id="asunto" required />
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/pexels-pixelazteca-12351510.jpg" class="card-img-top" alt="auto 3" />
+            <div class="card-body">
+              <p class="card-text">
+                Lamborghini
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+
+    <!-- 2 cards -->
+    <div class="container mt-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/pexels-trvlust-3221145.jpg" class="card-img-top" alt="auto 1" />
+            <div class="card-body">
+              <p class="card-text">
+                Lamborghini
+              </p>
+            </div>
+          </div>
         </div>
-        <input class="btn btn-success" type="submit" value="Submit" />
-      </form>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/pexels-szymon-shields-1503561-6152801.jpg" class="card-img-top" alt="auto 3" />
+            <div class="card-body">
+              <p class="card-text">
+                Lamborghini
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <section id="caracteristicas">
+    <div class="container m-5 bg-tertiary">
+      <h1 class="display-6 text-center mb-5">Caracteristicas</h1>
+      <div class="row">
+        <div class="col-md-8">
+          <!-- video de youtube -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/OkgKcmDfdXY?si=E5iJoXQPJU4HSiI2" title="Video de YouTube"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4 justify-content-center">
+          <!-- lista -->
+          <ul class="list-group">
+            <li class="text-success list-group-item">Caracteristicas de nuestros autos</li>
+            <li class="list-group-item">Motor V10 - 640 hp</li>
+            <li class="list-group-item">Doble embrague de 7 velocidades (LDF)</li>
+            <li class="list-group-item">Cambio automático con modo manual</li>
+            <li class="list-group-item">Aceleración de 0 a 100 km/h en 3.4 segundos</li>
+            <li class="list-group-item">Velocidad máxima de 325 km/h</li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <section id="contacto">
+    <!-- formulario de contacto -->
+
+    <form action="" form-control>
+      <div class="container">
+        <h1 class="display-6 text-center mb-5">Contacto Lamborghini</h1>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control is-valid" id="nombre" required />
+            <div class="valid-feedback">¡Se ve bien!</div>
+            <div class="invalid-feedback">
+              Por favor ingresa tu nombre.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo Electrónico</label>
+            <input type="text" class="form-control is-valid" id="correo" placeholder="user@correo.com" />
+            <div class="valid-feedback">¡Se ve bien!</div>
+            <div class="invalid-feedback">
+              Por favor ingresa tu correo.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="asunto" required />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <input class="btn btn-success" type="submit" value="Submit" />
+        </form>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </form>
     </div>
-    </div>
-    </div>
-  </form>
-  </div>
-  </form>
+    </form>
+  </section>
 
 
 
@@ -226,19 +231,16 @@
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          <a href="#inicio" class="nav-link px-2 text-body-secondary">Inicio</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          <a href="#nuestros-autos" class="nav-link px-2 text-body-secondary">Nuestros Autos</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          <a href="#caracteristicas" class="nav-link px-2 text-body-secondary">Caracteristicas</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          <a href="#contacto" class="nav-link px-2 text-body-secondary">Contacto</a>
         </li>
       </ul>
       <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
