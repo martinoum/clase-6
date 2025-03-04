@@ -2,7 +2,11 @@
 
 @font-face {
     font-family: 'Porsche';
-    src: url(Fuentes/911porschav3.ttf);
+    src: url('Fuentes/911porschav3.woff2') format('woff2'),
+         url('Fuentes/911porschav3.woff') format('woff'),
+         url('/Fuentes/911porschav3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .display-1 {
