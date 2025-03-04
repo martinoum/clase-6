@@ -20,6 +20,12 @@ body {
     color: #3f3f3f
 }
 
+#menu a span {
+    font-family: 'Porsche';
+    font-weight: 300;
+    font-size: 20px;
+}
+
 /* =================CAROUSEL================== */
 
 .carousel-item img {
