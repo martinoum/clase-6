@@ -70,3 +70,5 @@ Se utiliza la fuente personalizada `Porsche` para los títulos principales. La f
     font-family: 'Porsche';
 }
 
+## Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
