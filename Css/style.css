@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
-    font-family: Porsche;
-    src: url('Fuentes/911porschav3.woff2') format('woff2'),
-         url('Fuentes/911porschav3.woff') format('woff'),
-         url('/Fuentes/911porschav3.ttf') format('truetype');
+    font-family: 'Porsche';
+    src: url('../Fuentes/911porschav3.woff2') format('woff2'),
+         url('../Fuentes/911porschav3.woff') format('woff'),
+         url('../Fuentes/911porschav3.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
