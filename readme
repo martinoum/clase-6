@@ -6,26 +6,7 @@ Este proyecto es una página web de una sola página (OnePage) dedicada al Porsc
 
 El proyecto está organizado de la siguiente manera:
 
-```
-/clase-6
-├── /css
-│   ├── bootstrap.min.css
-│   └── style.css
-├── /fonts
-│   ├── 911porschav3.woff2
-│   ├── 911porschav3.woff
-│   └── 911porschav3.ttf
-├── /img
-│   ├── slider1.jpg
-│   ├── slider2.jpg
-│   └── slider3.jpg
-├── /js
-│   └── bootstrap.bundle.min.js
-├── index.html
-└── readme.md
-```
-
-Esta estructura permite una fácil navegación y mantenimiento del proyecto.
+OnePage/ ├── clase-6/ │ ├── Css/ │ │ └── style.css │ ├── Fuentes/ │ │ ├── 911porschav3.woff2 │ │ ├── 911porschav3.woff │ │ └── 911porschav3.ttf │ ├── imagenes/ │ │ ├── Porsche 1.jpg │ │ ├── Porsche 2.jpg │ │ ├── Porsche 3.jpg │ │ ├── Porsche 4.jpg │ │ ├── Porsche 5.jpg │ │ ├── Porsche 6.jpg │ │ ├── Porsche 7.jpg │ │ └── Porsche 8.jpg │ ├── index.html │ └── readme.md
 
 ## Tecnologías Utilizadas
 
@@ -69,6 +50,3 @@ Se utiliza la fuente personalizada `Porsche` para los títulos principales. La f
 .display-1 {
     font-family: 'Porsche';
 }
-
-## Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
