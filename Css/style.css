@@ -41,7 +41,7 @@ body {
 }
 
 #inicio .display-3 {
-    color: yellow !important; 
+    color: yellow !important;
 }
 
 
@@ -121,4 +121,15 @@ body {
 #nuestros-vehiculos {
     font-family: 'Montserrat', sans-serif;
     color: white;
+}
+
+/* -------------- contacto -------------- */
+form {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.btn {
+    background: rgba(255, 0, 0, 0.25);
 }
