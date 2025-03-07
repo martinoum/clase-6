@@ -12,39 +12,20 @@
 
 /* -------------- body -------------- */
 
-body {
-    height: 100vh;
-    background: linear-gradient(135deg, #0a0a0a, #1c1c1c, #3a3a3a, #2c2b29);
-    background-size: 300% 300%;
-    animation: gradient 18s ease-in-out infinite;
-    padding-top: 70px;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+#bg-gradient {
+    background-image: radial-gradient(circle at 8.21% 20.74%, #647371 0, #5d6463 25%, #535353 50%, #494244 75%, #40353a 100%); 
+    padding-top: 80px;
 }
 
 .display-3 {
     font-family: 'Porsche', sans-serif;
     color: rgb(255, 255, 255);
-    letter-spacing: 10px;
+    letter-spacing: 4px;
 }
 
 #inicio .display-3 {
     color: yellow !important;
 }
-
-
 
 /* -------------- navbar -------------- */
 
@@ -68,16 +49,14 @@ body {
 }
 
 
-
-
-
-
 /* -------------- carrusel -------------- */
 
 .carousel-item img {
     height: 80vh;
     object-fit: cover;
 }
+
+
 
 /* -------------- cards -------------- */
 .card-title {
@@ -99,22 +78,17 @@ body {
 
 
 .transparent-card {
-    background: rgba(0, 0, 0, 0.25);
-    color: white;
-    border: 0px solid rgba(255, 255, 255, 0.2);
-    padding: 2rem;
-    text-align: center;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(10px);
+    border: 0cm;
 
 }
 
 .transparent-card-review {
-    background: rgba(255, 0, 0, 0.25);
-    color: white;
-    border: 0px solid rgba(255, 255, 255, 0.2);
-    padding: 2rem;
-    text-align: center;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(10px);
+    border: 0cm;
+
 
 }
 
